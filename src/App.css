@@ -418,6 +418,7 @@ body {
   height: 180%;
   background-color: black;
   position: absolute;
+  z-index: 67;
   top: 0;
   right: 0;
   opacity: 75%;
