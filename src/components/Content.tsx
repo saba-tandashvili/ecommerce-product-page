@@ -65,6 +65,7 @@ export default function Content() {
               setCart(!cart);
             }}
           />
+          <p className="amount" style={{ display: !checked ? "none" : "" }}>{counter}</p>
           <div className="cart-div" style={{ display: !cart ? "none" : "" }}>
             <h1>Cart</h1>
             <div className="items-div">
@@ -115,8 +116,8 @@ export default function Content() {
       </div>
 
       <div className="whole">
-        <div className="listed">
-          <div className="list" style={{ display: !list ? "none" : "" }}>
+        <div className="listed" style={{ display: !list ? "none" : "" }}>
+          <div className="list">
             <img
               src={Close}
               alt=""

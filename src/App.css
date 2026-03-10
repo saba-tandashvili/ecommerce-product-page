@@ -87,6 +87,22 @@ body {
   cursor: pointer;
 }
 
+.amount{
+  height: 13px;
+  width: 19px;
+  border-radius: 6.5px;
+  background-color: #FF7E1B;
+  font-weight: 700;
+  font-size: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 10px;
+  top: 0;
+}
+
 .cart-div {
   position: absolute;
   top: 50px;
@@ -212,7 +228,7 @@ body {
 
 .whole {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -393,24 +409,24 @@ body {
   padding: 30px;
 }
 
-.list .list-section{
-    display: flex;
-    flex-direction: column;
-    height: 210px;
-    justify-content: space-between;
-    margin-top: 50px;
+.list .list-section {
+  display: flex;
+  flex-direction: column;
+  height: 210px;
+  justify-content: space-between;
+  margin-top: 50px;
 }
 
-.list .list-section p{
-    font-weight: 700;
-    font-size: 18px;
-    color: #1D2026;
+.list .list-section p {
+  font-weight: 700;
+  font-size: 18px;
+  color: #1d2026;
 }
 
-.list img{
-    height: 13.5px;
-    width: 13.5px;
-    cursor: pointer;
+.list img {
+  height: 13.5px;
+  width: 13.5px;
+  cursor: pointer;
 }
 
 .cover {
@@ -430,7 +446,7 @@ body {
     gap: 0;
   }
 
-  .left{
+  .left {
     margin-bottom: 100px;
   }
 
